@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postcss:build": "postcss src/css/tailwind.css -o public/dist/tailwind.min.css",
-    "postcss:watch": "postcss src/css/tailwind.css -o public/dist/tailwind.min.css --watch",
+    "postcss:build": "postcss src/tailwind/tailwind.css -o public/dist/tailwind.min.css",
+    "postcss:watch": "postcss src/tailwind/tailwind.css -o public/dist/tailwind.min.css --watch",
     "live-server": "live-server public",
     "gulp": "gulp"
   },
