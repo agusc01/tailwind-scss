@@ -1,0 +1,27 @@
+{
+  "name": "dev4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss:build": "postcss src/css/tailwind.css -o public/dist/tailwind.min.css",
+    "postcss:watch": "postcss src/css/tailwind.css -o public/dist/tailwind.min.css --watch",
+    "live-server": "live-server public",
+    "gulp": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "browser-sync": "^2.27.9",
+    "cssnano": "^5.1.4",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.49.9",
+    "tailwindcss": "^3.0.23"
+  }
+}
